@@ -1,0 +1,4 @@
+pr:
+  - rules:
+      - commitTitles.eq./^((fix|feat)\(.+\):)/
+    message: "`<header>` of commit message must use proper `<type>` or `<scope>`."
